@@ -1,0 +1,8 @@
+.dep/
+.vscode/
+Result/
+*.bak
+*.map
+*.zip
+*.code-workspace
+
