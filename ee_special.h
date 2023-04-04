@@ -30,9 +30,10 @@
 
 
 	u08 GetLastID(void);
-	void SetLastID(u08 id);
-	u08 GetLastLampID(void);
 	u08 GetLastWeldID(void);
+	u08 GetLastLampID(void);
+	void SetLastID(u08 id);
+
 	u08 ForSafety(void);
 	void ReadOptions (tmode *buffer, u08 id);
 	void WriteOptions (tmode *buffer, u08 id);
