@@ -1,7 +1,7 @@
 /*
  * main.c
  *
- *  Created on: 26 февр. 2019 г.
+ *  Created on: 04 апр. 2023 г.
  *      Author: SKudich
  */
 #include <avr/interrupt.h>
