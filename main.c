@@ -391,12 +391,13 @@ void GhangeSubMode(u08 flag)
 
 void CurOptions(void)
 {
-	u08 tmp;
+	//u08 tmp;
 
 	ReadCurOptions();		// ...последние настройки
 	//CurMode = mode_options.mode;
 	//CurSubMode = mode_options.submode;
-	tmp = ForSafety();
+	//tmp = ForSafety();
+	ForSafety();
 
 // Вывод текущей инф. на индикатор
 	Display_Dig(mode_options.name);		// в течении 1сек. название режима
